@@ -1,0 +1,68 @@
+/* Fonts Tajwal */
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
+
+/* Roots V1.0 */
+:root {
+    --font-light: 400;
+    --font-bold: 700;
+    --blue-color: #89c8c7;
+    --gray-color: #cccccc;
+    --blue-dark-color: #2f2e41;
+}
+
+* {
+    font-family: 'Tajawal', sans-serif;
+}
+
+body {
+    background-color: var(--blue-color);
+}
+
+/* Fonts Weight: Classes */
+.font-light {
+    font-weight: var(--font-light);
+}
+
+.font-bold {
+    font-weight: var(--font-bold);
+}
+
+/* Colors Classes */
+.blue-color {
+    color: var(--blue-color);
+}
+
+.gray-color {
+    color: var(--gray-color);
+}
+
+.blue-dark-color {
+    color: var(--blue-dark-color);
+}
+
+.sign-up .right-side .form-sign-up labal i {
+    color: var(--gray-color);
+}
+
+.sign-up .right-side .form-sign-up input[type=text], input[type=password], input[type=email]  {
+    border: none;
+    border-bottom: 1px solid var(--gray-color);
+    width: 75%;
+    padding: 10px 5px;
+    outline: none;
+}
+
+.sign-up .right-side .form-sign-up input[type=submit] {
+    background-color: var(--blue-color);
+    color: #fff;
+    outline: none;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 25px;
+    transition: 1s;
+}
+
+.sign-up .right-side .form-sign-up input[type=submit]:hover {
+    background-color: var(--blue-dark-color);
+    transition: 1s;
+}
